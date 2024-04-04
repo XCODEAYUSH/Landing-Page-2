@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pacifico";
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left {
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+#left #textcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textcenter h1{
+    font-size: 90px;
+    font-weight: bold;
+
+}
+
+#textcenter p{
+    opacity: .6;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#right {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+#rtop {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: royalblue;
+}
+
+#rbottom {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1682125390256-2c9f44971a3b?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: 100%;
+    background-position: bottom;
+}
+
+
+#rtopleft {
+    width: 55%;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1678718712069-4cd5ddc8819c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+}
+
+#rtopright {
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1520538254843-27a40bae5e3a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#lnav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+#lnav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+#lnavr i{
+    color: rgb(255, 0, 166);
+
+}
+
+
+
+#lnavr {
+    display: flex;
+    align-items: center;
+}
+
+#textcenter a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    opacity: .6;
+
+}
